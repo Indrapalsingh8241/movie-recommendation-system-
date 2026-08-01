@@ -17,11 +17,6 @@ if not os.path.exists("similarity.pkl"):
         "similarity.pkl",
         quiet=False
     )
-    gdown.download(
-            url,
-            "movies_dict.pkl",
-            quiet=False
-        )
     
 
 # --------------------------------------------------
@@ -46,7 +41,7 @@ with open("style.css") as f:
 # LOAD DATA
 # --------------------------------------------------
 
-movies = pickle.load(open("movies_list.pkl", "rb"))
+movies = pickle.load(open("/Users/indrapal/movie-recommender-system-tmdb-dataset/movie_list.pkl", "rb"))
 movies = pd.DataFrame(movies)
 
 similarity = pickle.load(open("similarity.pkl", "rb"))
