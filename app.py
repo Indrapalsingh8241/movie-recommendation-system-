@@ -5,7 +5,7 @@ from tmdb import *
 import os
 import gdown
 
-FILE_ID ="1OirwADjv5MeJBBe1OdisuJihCgtj-Jwt"
+FILE_ID ="1cH96iipCOPfxfL-CMzohBt2mdOhxFlv5"
 
 if not os.path.exists("similarity.pkl"):
     print("Downloading similarity.pkl...")
