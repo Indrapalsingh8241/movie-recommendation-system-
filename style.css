@@ -1,0 +1,291 @@
+/* ---------------- GOOGLE FONT ---------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+html,
+body,
+[class*="css"] {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ---------------- MAIN APP ---------------- */
+
+.stApp{
+    background:
+        radial-gradient(circle at top left,#1f2937,#0f172a 55%);
+    color:white;
+}
+
+/* Remove Streamlit default menu */
+
+#MainMenu{
+    visibility:hidden;
+}
+
+footer{
+    visibility:hidden;
+}
+
+header{
+    visibility:hidden;
+}
+
+/* ---------------- HERO SECTION ---------------- */
+
+.hero{
+
+    padding:55px;
+
+    border-radius:25px;
+
+    background:linear-gradient(
+    135deg,
+    #2563eb,
+    #7c3aed,
+    #ec4899
+    );
+
+    text-align:center;
+
+    color:white;
+
+    margin-bottom:40px;
+
+    box-shadow:
+    0px 15px 45px rgba(0,0,0,.35);
+
+}
+
+.hero h1{
+
+    font-size:52px;
+
+    font-weight:800;
+
+    margin-bottom:12px;
+
+}
+
+.hero p{
+
+    font-size:20px;
+
+    opacity:.92;
+
+}
+
+/* ---------------- SIDEBAR ---------------- */
+
+section[data-testid="stSidebar"]{
+
+    background:#111827;
+
+}
+
+.sidebar-title{
+
+    font-size:28px;
+
+    font-weight:700;
+
+    color:white;
+
+    margin-bottom:10px;
+
+}
+
+.sidebar-text{
+
+    color:#d1d5db;
+
+    line-height:1.8;
+
+}
+
+/* ---------------- SELECTBOX ---------------- */
+
+.stSelectbox > div > div{
+
+    background:#1f2937;
+
+    border-radius:12px;
+
+    border:1px solid #374151;
+
+}
+
+/* ---------------- BUTTON ---------------- */
+
+.stButton>button{
+
+    width:100%;
+
+    background:linear-gradient(
+    90deg,
+    #3b82f6,
+    #8b5cf6
+    );
+
+    color:white;
+
+    border:none;
+
+    border-radius:14px;
+
+    padding:16px;
+
+    font-size:18px;
+
+    font-weight:700;
+
+    transition:.35s;
+
+}
+
+.stButton>button:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 10px 30px rgba(0,0,0,.35);
+
+}
+
+/* ---------------- MOVIE CARD ---------------- */
+
+.movie-card{
+
+    background:#1f2937;
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+    padding:15px;
+
+    margin-bottom:25px;
+
+    transition:.35s;
+
+    border:1px solid rgba(255,255,255,.08);
+
+}
+
+.movie-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0px 18px 40px rgba(0,0,0,.45);
+
+}
+
+.movie-title{
+
+    color:white;
+
+    font-size:19px;
+
+    font-weight:700;
+
+    margin-top:15px;
+
+    margin-bottom:8px;
+
+}
+
+.movie-info{
+
+    color:#cbd5e1;
+
+    font-size:14px;
+
+}
+
+/* ---------------- BADGES ---------------- */
+
+.badge{
+
+    display:inline-block;
+
+    padding:6px 12px;
+
+    margin-right:6px;
+
+    margin-top:8px;
+
+    background:#2563eb;
+
+    border-radius:20px;
+
+    color:white;
+
+    font-size:12px;
+
+}
+
+/* ---------------- FOOTER ---------------- */
+
+.footer{
+
+    text-align:center;
+
+    margin-top:70px;
+
+    color:#9ca3af;
+
+    font-size:15px;
+
+    padding:20px;
+
+    border-top:1px solid #374151;
+
+}
+
+/* ---------------- METRIC CARDS ---------------- */
+
+.metric{
+
+    background:#111827;
+
+    border-radius:16px;
+
+    padding:22px;
+
+    text-align:center;
+
+    border:1px solid rgba(255,255,255,.05);
+
+}
+
+.metric h2{
+
+    color:white;
+
+}
+
+.metric p{
+
+    color:#9ca3af;
+
+}
+
+/* ---------------- SCROLLBAR ---------------- */
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#6366f1;
+
+    border-radius:20px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:#111827;
+
+}
