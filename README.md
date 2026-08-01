@@ -1,7 +1,7 @@
 # 🎬 Movie Recommendation System
 
 A **content-based movie recommendation system** built using **Python, Scikit-learn, and Streamlit**. The application recommends similar movies based on content similarity and displays movie posters using the **TMDB API**.
-
+LIVE_DEMO_LINK=https://ndjinx3mgemlalqxmqdpis.streamlit.app/
 ## 🚀 Features
 
 * Recommend similar movies instantly
