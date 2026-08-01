@@ -41,7 +41,7 @@ with open("style.css") as f:
 # LOAD DATA
 # --------------------------------------------------
 
-movies = pickle.load(open("/Users/indrapal/movie-recommender-system-tmdb-dataset/movie_list.pkl", "rb"))
+movies = pickle.load(open("movie_list.pkl", "rb"))
 movies = pd.DataFrame(movies)
 
 similarity = pickle.load(open("similarity.pkl", "rb"))
